@@ -1,0 +1,48 @@
+### Frontend (React + Vite)
+The frontend is a React application built with Vite, located in the `/frontend` directory. Key components include:
+
+1. **Main Structure**:
+- `src/App.jsx`: Main application component with routing setup
+- `src/main.jsx`: Application entry point
+- `src/ai.js`: VAPI AI integration configuration
+
+2. **Key Features**:
+- User authentication (Login/Register)
+- Separate dashboards for users and admins
+- Interview management system
+- Real-time voice interaction components
+
+3. **Components Organization**:
+- `src/pages/`: Contains main page components
+- `src/call/`: Voice call related components
+- `assets/`: Static assets and images
+
+### Backend (Flask)
+The backend is a Flask application located in the `/backend` directory, providing:
+
+1. **Core Features**:
+- RESTful API endpoints
+- JWT-based authentication
+- PostgreSQL database integration
+- VAPI.ai integration for voice calls
+
+2. **Database Models**:
+- User management
+- Admin management
+- Interview history tracking
+- Conversation data storage
+
+3. **Key Endpoints**:
+- Authentication endpoints (`/login`)
+- Interview management (`/interview-history`, `/save-interview`)
+- Admin-specific endpoints (`/admin/*`)
+- Call management (`/call-details`)
+
+The application uses a modern stack with:
+- Frontend: React 19, React Router, VAPI AI Web SDK
+- Backend: Flask, SQLAlchemy, JWT, PostgreSQL
+- Development tools: ESLint, Vite
+
+The architecture follows a clear separation between frontend and backend, with the frontend handling the UI and user interactions while the backend manages data persistence and business logic.
+
+        
