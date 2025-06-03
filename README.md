@@ -114,4 +114,4 @@ The frontend will be available at: `http://localhost:5173`
 Feel free to fork this repo and submit pull requests. Suggestions and improvements are welcome!
 
 ## 🙏🏼 Acknowledgement 
-This Project was developed in Orange Digital Center Rabat, Maroc, thanks to all members who contributed in this project!
+This Project was developed in <b>Orange Digital Center Rabat, Maroc.</b> thanks to all members who contributed in this project!
