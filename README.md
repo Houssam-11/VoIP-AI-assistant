@@ -1,4 +1,7 @@
 # VAPI AI Voice Assistant for Candidate Interviews
+<div align="center">
+  <img src="images/interfc.png" alt="home page" width="500"/>
+</div>
 
 This project is a full-stack AI voice assistant application built to streamline and automate the interview process for candidate screening. It uses **Flask** and **PostgreSQL** on the backend, **React with Vite** on the frontend, and integrates the **Vapi.ai** platform for real-time voice-based conversations.
 
@@ -88,13 +91,23 @@ The frontend will be available at: `http://localhost:5173`
 3. Update `.env` in your frontend project with your Vapi credentials
 
 ## ✅ Usage
-
 - Register as a user and log in  with your credentials
-- Start a voice interview with the AI assistant  
+- Start a voice interview with the AI assistant
+- Fill in the form to start the call 
 - After the call, view a summary of the conversation  
 - Admins can access a dashboard (WIP) to view user data
+<p align="center">
+  <img src="images/back.png" alt="Register/sign in" width="300"/>
+  <img src="images/user_dash.png" alt="user dash" width="300"/>
+  <img src="images/form_call.png" alt="fill in form" width="300"/>
+  <img src="images/assist.png" alt="assistant" width="300"/>
+</p>
+
 - Admins can make decision to accept/deny or postpone a candidate application
 - Admins can download a dataset of all registered candidates and their call summary
+<p align="center">
+  <img src="images/admins_dash.png" alt="admin dash" width="300"/>
+</p>
 
 ## 🤝 Contributing
 
